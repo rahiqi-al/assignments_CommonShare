@@ -116,3 +116,37 @@ WHERE c.company_id IS NULL
 
 - **Schema consistency:** Enforced through Iceberg table definitions and strict type checks.  
 - **Data quality:** Null checks, ISO2 country code normalization, and derived `active_status` for accurate reporting.  
+
+
+## 5. Create a Virtual Environment
+
+To isolate dependencies, create and activate a Python virtual environment:
+
+```bash
+# Create a virtual environment named 'venv'
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+````
+
+## 6. Configure Environment Variables
+
+Create a `.env` file in the project root with the following content:
+
+```env
+# Spark configuration
+AWS_REGION=us-east-1
+MINIO_REGION=us-east-1
+AWS_DEFAULT_REGION=us-east-1
+AWS_ACCESS_KEY=ali
+AWS_SECRET_KEY=aliali123
+AWS_S3_ENDPOINT=http://minio:9000
+WAREHOUSE=s3a://warehouse/
+NESSIE_URI=http://nessie:19120/api/v1
+
+# MinIO configuration
+ACCESS_KEY=ali
+SECRET_KEY=aliali123
+```
