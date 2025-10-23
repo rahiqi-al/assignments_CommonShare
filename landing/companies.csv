@@ -1,0 +1,7 @@
+company_id,name,website,country,industry,parent_id
+1,Alpha Corp,www.alpha.com,US,Manufacturing,
+2,Beta Ltd,www.beta.com,GB,Technology,
+3,Gamma Inc,,FR,Healthcare,1
+4,Delta LLC,www.delta.com,DE,Manufacturing,2
+5,,www.epsilon.com,US,Finance,
+6,Zeta SA,www.zeta.com,ES,Technology,

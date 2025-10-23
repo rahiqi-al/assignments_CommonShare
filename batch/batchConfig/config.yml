@@ -1,0 +1,4 @@
+
+BUCKET: warehouse
+BRONZE: bronze/
+LANDING_PATH : "/project/landing" 

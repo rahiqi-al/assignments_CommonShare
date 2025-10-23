@@ -1,0 +1,9 @@
+company_id,certificate_id,facility_location,scope,status
+1,101,New York,Global,Active
+1,102,Boston,Regional,Expired
+2,101,London,Global,Active
+2,104,Manchester,Regional,Expired
+3,103,Paris,Facility,Active
+4,105,Berlin,Global,Active
+5,101,Chicago,Global,Active
+6,102,Madrid,Regional,Expired
