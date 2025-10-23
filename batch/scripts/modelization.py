@@ -40,7 +40,7 @@ try:
     # Read Silver
     df_silver = spark.table("nessie.silver.fact_certifications")
 
-    # Corrected dimension tables
+    # dimension tables
     dim_company = df_silver.select("company_id", "name").dropDuplicates()
     dim_certification = df_silver.select("certificate_id", "standard_name").dropDuplicates()
 
